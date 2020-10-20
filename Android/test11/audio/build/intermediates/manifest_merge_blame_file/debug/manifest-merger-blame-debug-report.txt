@@ -1,0 +1,277 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="android.media"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:6:5-71
+11-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:6:22-68
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:8:5-81
+13-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:9:5-66
+14-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:9:22-64
+15
+16    <application
+16-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:11:5-126:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.0] /Users/qkboo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@drawable/icon"
+20-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:11:18-47
+21        android:label="@string/app_name"
+21-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:11:48-80
+22        android:testOnly="true" >
+23        <activity
+23-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:12:9-19:20
+24            android:name="android.media.Main"
+24-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:12:19-39
+25            android:label="@string/app_name"
+25-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:13:19-51
+26            android:screenOrientation="portrait" >
+26-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:14:19-55
+27            <intent-filter>
+27-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:15:13-18:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+28-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:17:17-77
+30-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:17:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <!--
+35        //////////////////////////////////////////////////////////////
+36                                  Audio
+37        //////////////////////////////////////////////////////////////
+38        -->
+39        <activity
+39-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:24:9-31:20
+40            android:name="android.media.audio.AudioRecordActivity"
+40-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:24:19-73
+41            android:label="Audio/Audio record"
+41-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:25:13-47
+42            android:screenOrientation="portrait" >
+42-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:26:13-49
+43            <intent-filter>
+43-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+44-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+45
+46                <category android:name="kr.thinkbee.android.media.examples" />
+46-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+46-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:32:9-39:20
+50            android:name="android.media.audio.AudioRecorderActivity2"
+50-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:32:19-76
+51            android:label="Audio/Sound level"
+51-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:33:13-46
+52            android:screenOrientation="portrait" >
+52-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:34:13-49
+53            <intent-filter>
+53-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+54-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+55
+56                <category android:name="kr.thinkbee.android.media.examples" />
+56-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+56-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:41:9-48:20
+60            android:name="android.media.audio.SpeechActivity"
+60-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:41:19-68
+61            android:label="Audio/Speech"
+61-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:42:13-41
+62            android:screenOrientation="portrait" >
+62-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:43:13-49
+63            <intent-filter>
+63-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+64-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+65
+66                <category android:name="kr.thinkbee.android.media.examples" />
+66-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+66-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:50:9-58:20
+70            android:name="android.media.audio.AudioTrackActivity"
+70-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:50:19-72
+71            android:label="Audio Track/1.AudioTrack"
+71-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:52:13-53
+72            android:screenOrientation="portrait"
+72-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:53:13-49
+73            android:theme="@style/AppTheme" >
+73-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:51:13-44
+74            <intent-filter>
+74-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+75-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+76
+77                <category android:name="kr.thinkbee.android.media.examples" />
+77-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+77-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:60:9-68:20
+81            android:name="android.media.audio.AudioTrackLoopActivity"
+81-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:60:19-76
+82            android:label="Audio Track/2.AudioTrack Looping"
+82-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:62:13-61
+83            android:screenOrientation="portrait"
+83-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:63:13-49
+84            android:theme="@style/AppTheme" >
+84-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:61:13-44
+85            <intent-filter>
+85-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+86-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+87
+88                <category android:name="kr.thinkbee.android.media.examples" />
+88-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+88-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+89            </intent-filter>
+90        </activity>
+91
+92        <!--
+93        //////////////////////////////////////////////////////////////
+94                                  Soundpool
+95        //////////////////////////////////////////////////////////////
+96        -->
+97        <activity
+97-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:74:9-80:20
+98            android:name="android.media.soundpool.SoundManagerActivity"
+98-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:74:19-78
+99            android:label="Audio/SoundManager" >
+99-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:75:13-47
+100            <intent-filter>
+100-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+101                <action android:name="android.intent.action.MAIN" />
+101-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+101-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+102
+103                <category android:name="kr.thinkbee.android.media.examples" />
+103-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+103-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+104            </intent-filter>
+105        </activity>
+106        <activity android:name="android.media.soundpool.SoundManagerActivity2" >
+106-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:81:9-82:20
+106-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:81:19-79
+107        </activity>
+108        <activity
+108-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:84:9-90:20
+109            android:name="android.media.soundpool.SoundPoolActivity"
+109-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:84:19-75
+110            android:label="Audio/Soundpool" >
+110-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:85:13-44
+111            <intent-filter>
+111-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+112-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+113
+114                <category android:name="kr.thinkbee.android.media.examples" />
+114-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+114-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+115            </intent-filter>
+116        </activity>
+117
+118        <!--
+119        //////////////////////////////////////////////////////////////
+120                                  MediaPlayer
+121        //////////////////////////////////////////////////////////////
+122        -->
+123        <activity
+123-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:95:9-101:20
+124            android:name="android.media.mediaplayer.MusicPlayerActivity"
+124-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:95:19-79
+125            android:label="Audio/Music player" >
+125-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:96:13-47
+126            <intent-filter>
+126-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+127                <action android:name="android.intent.action.MAIN" />
+127-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+127-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+128
+129                <category android:name="kr.thinkbee.android.media.examples" />
+129-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+129-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+130            </intent-filter>
+131        </activity>
+132        <activity android:name="android.media.mediaplayer.PlayActivity" />
+132-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:102:9-75
+132-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:102:19-72
+133
+134        <!--
+135        //////////////////////////////////////////////////////////////
+136                                  MediaStore
+137        //////////////////////////////////////////////////////////////
+138        -->
+139        <activity
+139-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:108:9-115:20
+140            android:name="android.media.mediastore.MediaStoreCameraActivity"
+140-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:108:19-83
+141            android:label="MediaStore/Simple Camera"
+141-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:110:13-53
+142            android:screenOrientation="portrait" >
+142-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:109:13-49
+143            <intent-filter>
+143-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+144                <action android:name="android.intent.action.MAIN" />
+144-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+144-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+145
+146                <category android:name="kr.thinkbee.android.media.examples" />
+146-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+146-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+147            </intent-filter>
+148        </activity>
+149        <activity
+149-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:116:9-123:20
+150            android:name="android.media.mediastore.MediaStoreActivity"
+150-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:116:19-77
+151            android:label="MediaStore/Audio Recorder"
+151-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:117:13-54
+152            android:screenOrientation="portrait" >
+152-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:118:13-49
+153            <intent-filter>
+153-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:27:13-30:29
+154                <action android:name="android.intent.action.MAIN" />
+154-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:17-69
+154-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:16:25-66
+155
+156                <category android:name="kr.thinkbee.android.media.examples" />
+156-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:16-78
+156-->/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/AndroidManifest.xml:29:26-75
+157            </intent-filter>
+158        </activity>
+159    </application>
+160
+161</manifest>

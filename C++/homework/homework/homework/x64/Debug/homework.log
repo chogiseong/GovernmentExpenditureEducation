@@ -1,0 +1,5 @@
+﻿  main.cpp
+  util_manage.cpp
+C:\Users\moble\Desktop\homework\homework\homework\util_manage.cpp(146,33): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  homework.vcxproj -> C:\Users\moble\Desktop\homework\homework\x64\Debug\homework.exe

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="year">
+        <item>1996년</item>
+        <item>1997년</item>
+        <item>1998년</item>
+        <item>1999년</item>
+        <item>2000년</item>
+        <item>2001년</item>
+        <item>2002년</item>
+        <item>2003년</item>
+        <item>2004년</item>
+        <item>2005년</item>
+        <item>2006년</item>
+        <item>2007년</item>
+        <item>2008년</item>
+        <item>2009년</item>
+        <item>2010년</item>
+        <item>2011년</item>
+        <item>2012년</item>
+        <item>2013년</item>
+        <item>2014년</item>
+        <item>2015년</item>
+        <item>2016년</item>
+        <item>2017년</item>
+        <item>2018년</item>
+        <item>2019년</item>
+        <item>2020년</item>
+        <item>2021년</item>
+        <item>2022년</item>
+        <item>2023년</item>
+        <item>2024년</item>
+        <item>2025년</item>
+        <item>2026년</item>
+        <item>2027년</item>
+        <item>2028년</item>
+        <item>2029년</item>
+        <item>2030년</item>
+    </string-array>
+    <string-array name="term">
+        <item>1학기</item>
+        <item>여름학기</item>
+        <item>2학기</item>
+        <item>겨울학기</item>
+    </string-array>
+    <string-array name="Area">
+        <item>실외</item>
+        <item>실내</item>
+        <item>비활동성</item>
+    </string-array>
+
+    <string-array name="activeFreetime">
+        <item>가족모임</item>
+        <item>친구모임</item>
+    </string-array>
+    <string-array name="unactiveFreetime">
+        <item></item>
+        <item>비활동적인일과1</item>
+        <item>비활동적인일과2</item>
+        <item>비활동적인일과3</item>
+    </string-array>
+
+    <string-array name="activeInnerFreetime">
+        <item>활동적실내일과1</item>
+        <item>활동적실내일과2</item>
+        <item>활동적실내일과3</item>
+        <item>활동적실내일과4</item>
+    </string-array>
+    <string-array name="activeOuterFreetime">
+        <item>활동적실외일과1</item>
+        <item>활동적실외일과2</item>
+        <item>활동적실외일과3</item>
+        <item>활동적실외일과4</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,3 @@
+//include ':audio'
+include ':mynote_db'
+rootProject.name = "day5-examples"

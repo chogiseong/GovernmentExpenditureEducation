@@ -1,0 +1,17 @@
+head{
+    height:50px;
+    background-color: seagreen;
+    padding:10px;
+    border-radius: 5px;
+    color:darkblue;
+}
+body{
+    background-color:salmon;
+    padding: 5px;
+    margin: 10px;
+}
+p{
+    background-color: sandybrown;
+    font: size 50px;
+    color: seagreen;
+}

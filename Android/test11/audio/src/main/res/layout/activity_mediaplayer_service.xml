@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    <TableLayout android:layout_width="match_parent" android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_weight="0.30">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button 
+           	android:layout_width="100dp"
+            android:text="Button" android:layout_height="wrap_content"  android:id="@+id/uri_audioplay"></Button>
+            <Button android:text="Button" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/uri_audiostop"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="Post Music" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+            <Button android:text="Music Play/Stop" android:id="@+id/asset_audioplay" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+            <Button android:text="Next Music" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/asset_audiostop"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="Button" android:id="@+id/Recording" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+            <Button android:text="Button" android:id="@+id/stopRecording" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="Button" android:id="@+id/recordingplay" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+        </TableRow>
+        <TextView
+        android:gravity="center"
+         android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content"></TextView>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+include ':custom_list'
+include ':simple_list'
+include ':my_menu_actionbar'
+include ':java_exam'
+include ':choosable_widgets'
+include ':calc1'
+include ':app'
+rootProject.name = "My Application"

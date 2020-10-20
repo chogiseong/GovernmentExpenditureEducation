@@ -1,0 +1,18 @@
+package Moble;
+
+import java.util.List;
+
+public interface DAO {
+	public List<WishBoardVO> getList();
+	
+	//public VO_LOGIN getLogin(Long Student_number);
+	
+	
+	///////////////upload 시 데이터베이스에 파일 입력
+	
+	
+	public List<StudyBoardVO> getListStudyBoard(String study_choice, String study_search);
+	public boolean selectStudyBoard(String file);
+	public boolean insertStudyBoard(StudyBoardVO StudyBoardVO);
+	public boolean deleteStudyBoard(Long fileNo);
+}

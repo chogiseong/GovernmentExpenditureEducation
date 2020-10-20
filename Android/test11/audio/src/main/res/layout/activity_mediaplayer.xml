@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  >
+    
+    <!--  사운드/파일 위치에 따른 미디어 재생 샘플코드
+ -->
+<TextView android:text="Steave Jobs 스탠포드대학 연설"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" />
+	
+	 <LinearLayout
+ 	android:orientation="horizontal"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">	
+	<Button android:id="@+id/btn_play"
+		android:text="@string/btn_play" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="2">
+	</Button>
+	<Button android:id="@+id/btn_play_stop"
+		android:text="@string/btn_stop" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+	</Button>
+	</LinearLayout>
+	
+
+ <TextView android:text="assets 폴더의 three_bears.mp3"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" />
+ <LinearLayout
+ 	android:orientation="horizontal"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+	
+	<Button android:id="@+id/btn_play1"
+		android:text="@string/btn_play1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="2">
+	</Button>
+	<Button android:id="@+id/btn_play_stop1"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1" android:text="@string/btn_stop">
+	</Button>
+ </LinearLayout>
+
+ <TextView android:text="res/raw/three_bears.mp3" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+ <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+    <Button android:id="@+id/btn_play2"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_weight="2" android:text="@string/btn_play">
+    </Button>
+    <Button android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="@string/btn_stop" android:id="@+id/btn_play_stop2">
+    </Button>
+ </LinearLayout>
+
+	<!--  
+	음량 조절
+	 -->
+ 
+ 
+	<TextView 	   android:id="@+id/title2"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+    	android:layout_marginTop="15dp"
+	    android:gravity="left|center_vertical"
+	    android:text="볼륨 조절"
+    />
+	<SeekBar
+	   android:id="@+id/seekbar"
+	   android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"
+	   android:layout_marginTop="2dp"
+	   android:layout_marginLeft="10dp"
+	   android:layout_marginRight="5dp"
+	   android:max="100"
+	   android:progress="20"
+	   />
+
+
+
+
+
+
+</LinearLayout>

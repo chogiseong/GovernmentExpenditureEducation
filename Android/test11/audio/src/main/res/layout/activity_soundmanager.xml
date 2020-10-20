@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/ChangeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Change Activity" >
+    </Button>
+
+    <Button
+        android:id="@+id/PlaySound1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ChangeActivity"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Play Sound 1" >
+    </Button>
+
+    <Button
+        android:id="@+id/PlaySound2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PlaySound1"
+        android:layout_centerHorizontal="true"
+        android:text="Play Sound 2" >
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ListView
+        android:id="@android:id/list"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_width="fill_parent" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#808080"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip">
+        <Button
+            android:id="@+id/pauseButton"
+            android:text="Pause"
+            android:onClick="onClickPause"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="fill_parent" />
+        <Button
+            android:id="@+id/stopButton"
+            android:text="Stop"
+            android:onClick="onClickStop"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

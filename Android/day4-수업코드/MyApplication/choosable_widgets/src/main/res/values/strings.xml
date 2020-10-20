@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">choosable_widgets</string>
+
+    <string name="android" translatable="false">안드로이드</string>
+
+</resources>

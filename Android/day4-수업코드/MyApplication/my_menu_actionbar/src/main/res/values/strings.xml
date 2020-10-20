@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My_Menu_Actionbar</string>
+    <string name="action_settings">설정!</string>
+    <string name="옵션2">action_option2</string>
+</resources>

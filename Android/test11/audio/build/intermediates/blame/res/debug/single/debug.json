@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_audio.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_audio.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_audiorecorder2.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_audiorecorder2.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_speech.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_speech.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_audiomanager.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_audiomanager.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_audiorecord.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_audiorecord.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_soundmanager.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_soundmanager.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_musicplayer_songlist.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_musicplayer_songlist.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_mediastore_camera.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_mediastore_camera.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/raw_parots_talking.mp3.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/raw/parots_talking.mp3"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_audiotrackloop_main.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_audiotrackloop_main.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_audiotrack_main.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_audiotrack_main.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/raw_three_bears.mp3.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/raw/three_bears.mp3"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/menu_main_video1.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/menu/main_video1.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/drawable-ldpi_icon.png.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_soundpool.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_soundpool.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/raw_starwars.wav.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/raw/starwars.wav"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/menu_activity_musicplayer.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/menu/activity_musicplayer.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_mediaplayer_service.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_mediaplayer_service.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_mediaplayer.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_mediaplayer.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/raw_terminator.wav.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/raw/terminator.wav"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/drawable-hdpi_icon.png.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_musicplayer.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_musicplayer.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/drawable-mdpi_icon.png.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_mediastore.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_mediastore.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/raw_sound.ogg.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/raw/sound.ogg"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_activity_soundmanager2.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/activity_soundmanager2.xml"
+    },
+    {
+        "merged": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/build/intermediates/res/merged/debug/layout_take_picture.xml.flat",
+        "source": "/Users/qkboo/Android-work/2020_Lecture_source/day5-examples/audio/src/main/res/layout/take_picture.xml"
+    }
+]

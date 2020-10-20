@@ -1,0 +1,4 @@
+127.0.0.1 - - [12/Jul/2020:17:15:47 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [12/Jul/2020:17:15:48 +0900] "GET /%EC%A1%B0%EA%B8%B0%EC%84%B1/guestbook/list.jsp HTTP/1.1" 200 1018
+0:0:0:0:0:0:0:1 - - [12/Jul/2020:17:16:04 +0900] "GET /%EC%A1%B0%EA%B8%B0%EC%84%B1/guestbook/insert.jsp?name=%EC%A1%B0%EA%B8%B0%EC%84%B1&password=0707&content=%EA%B1%B4%EC%A4%91%EC%A7%80%EA%B1%B4 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Jul/2020:17:16:04 +0900] "GET /%EC%A1%B0%EA%B8%B0%EC%84%B1/guestbook/list.jsp HTTP/1.1" 200 1118

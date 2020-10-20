@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Note DB</string>
+
+    <!-- Memo -->
+    <string name="checkbox_sdcard">SD Card</string>
+    <string name="new_memo">새 메모</string>
+    <string name="quit">종료</string>
+    <string name="memo_title">메모장(DB)</string>
+    <string name="title">제목</string>
+    <string name="hint_memo_body">메모 내용을 입력해주세요</string>
+    <string name="hint_memo_title">제목을 입력해 주세요</string>
+    <string name="body">내용</string>
+    <string name="mymemo_title">내 메모 목록입니다.</string>
+    <string name="picture">사진</string>
+
+</resources>

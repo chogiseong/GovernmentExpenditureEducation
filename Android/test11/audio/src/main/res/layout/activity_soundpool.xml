@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<Button
+	android:id="@+id/play1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="보통재생"
+/>
+<Button
+	android:id="@+id/play2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="볼륨 절반 재생"
+/>
+<Button
+	android:id="@+id/play3"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="3회 재생"
+/>			
+<Button
+	android:id="@+id/play4"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="0.5배속 재생"
+/>
+<Button
+	android:id="@+id/play5"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="2배속 재생"
+/>
+<Button
+	android:id="@+id/play6"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="3배속 재생"
+/>			
+</LinearLayout>

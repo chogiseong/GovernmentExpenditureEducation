@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="파일"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="파일"/>
+			<item value="from"/>
+			<item value="print"/>
+			<item value="wish"/>
+			<item value="Free"/>
+			<item value="tableContent"/>
+			<item value="tableContent1"/>
+			<item value="insert"/>
+			<item value="studytitle"/>
+			<item value="study"/>
+			<item value="글"/>
+			<item value="글쓰기"/>
+			<item value="소원"/>
+			<item value="Wish"/>
+			<item value="null"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Study"/>
+			<item value="StudyBoardVO"/>
+			<item value="studyboardVO"/>
+			<item value="filename"/>
+			<item value="title"/>
+			<item value="content"/>
+			<item value="title1"/>
+			<item value="date"/>
+			<item value="FreeBoard"/>
+			<item value="wish"/>
+			<item value="study"/>
+			<item value="attendance"/>
+			<item value="Attendance"/>
+			<item value="MobleCommunity"/>
+			<item value="MOBLECOMMUNITY"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1480"/>
+		<item key="DIALOG_Y_ORIGIN" value="245"/>
+		<item key="DIALOG_WIDTH" value="338"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

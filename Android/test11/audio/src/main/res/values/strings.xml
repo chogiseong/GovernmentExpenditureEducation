@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Media</string>
+    
+    <string name="btn_play">Uri 재생</string>
+    <string name="btn_play1">assets 재생</string>
+    <string name="btn_play2">raw 재생</string>
+    <string name="btn_stop">멈춤</string>
+    
+    <string name="settings">Settings</string>
+    <string name="item1">아이템1</string>
+    <string name="item2">아이템2</string>
+    <string name="item3">아이템3</string>
+    <string name="item4">아이템4</string>
+    
+</resources>
